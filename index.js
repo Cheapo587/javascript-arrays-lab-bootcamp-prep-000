@@ -42,6 +42,6 @@ function removeFirstKitten(){
 }
 
 function appendKitten(name){
-  var newArray = kittens.push(name)
+  var newArray = [kittens..., name]
   return newArray
 }
