@@ -40,3 +40,8 @@ function removeFirstKitten(){
   var newArray = kittens.shift()
   return newArray
 }
+
+function appendKitten(name){
+  var newArray = kittens.push(name)
+  return newArray
+}
